@@ -1,4 +1,4 @@
-final keys = {
+final localizationMap = {
   'en_US': {
     'hello_m': 'Hello World in INDIA',
     'hello': 'Hello World',
