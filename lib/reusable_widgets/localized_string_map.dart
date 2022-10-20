@@ -1,10 +1,15 @@
 final localizationMap = {
   'en_US': {
-    'hello_m': 'Hello World in INDIA',
-    'hello': 'Hello World',
+    LocalizedStringKeys.helloM: 'Hello World in INDIA',
+    LocalizedStringKeys.hello: 'Hello World',
   },
   'hi_IN': {
-    'hello': 'नमस्ते दुनिया',
-    'hello_m': 'हेलो वर्ल्ड इन इंडिया',
+    LocalizedStringKeys.hello: 'नमस्ते दुनिया',
+    LocalizedStringKeys.helloM: 'हेलो वर्ल्ड इन इंडिया',
   }
 };
+
+class LocalizedStringKeys {
+  static const hello = "hello";
+  static const helloM = "hello_m";
+}
